@@ -1,0 +1,13 @@
+.full-container{
+    background-image:linear-gradient(to bottom right, #2274A5, #131B23);
+    height: 100vh;
+}
+.cadran{
+    font-size: 100px;
+    color:whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+}
+.middle{
+    margin-top: auto;
+    margin-bottom: auto;
+}

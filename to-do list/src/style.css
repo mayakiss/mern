@@ -1,0 +1,28 @@
+body{
+    background-color: dimgrey!important;
+}
+.full-container{
+    height:100vh
+}
+.row{
+    height:inherit;
+}
+.card{
+    /* background-color: #fff; */
+    margin-top: 100px;
+    margin-bottom:auto;
+}
+.list-group-item{
+    padding-left: 40px!important;
+}
+.col-md-10{
+    margin-left: auto;
+    margin-right: auto;
+}
+li > div > button{
+    float:right;
+    margin-top: -5px;
+}
+li > div{
+    padding-top: 5px;
+}

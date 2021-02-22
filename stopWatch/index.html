@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://use.fontawesome.com/2be45a7860.js"></script>
+    <title><i class="fa fa-stopwatch"></i>StopWatch</title>
+    <script>
+
+</script>
+</head>
+<div class="full-container">
+<div class="row-shrink text-center hour with-padding">
+    <div class="col-xs-3 col-md-4 block">
+        <span class="digit"></span>
+    </div>
+    <div class="col-xs-3 col-md-4 minut block">
+        :<span class="digit"></span>:
+    </div>
+    <div class="col-xs-3 col-md-4 second block">
+        <span class="digit"></span>
+    </div>
+</div>
+</div>
+<div class="row text-center with-padding">
+    <div id="start" class="col-xs-4 col-md-4">
+        <button onclick="startWatch()" data-toggle="start">START</button>
+    </div>
+    <div id="stop" class="col-xs-4 col-md-4">
+        <button onclick="stopWatch()" data-toggle="stop">STOP</button>
+    </div>
+    <div id="reset" class="col-xs-4 col-md-4">
+        <button onclick="reset()" date-toggle="reset">RESET</button>
+    </div>
+</div>
+</div>
+<body>
+</body>
+<script src="./src/count.js"></script>
+</html>

@@ -1,0 +1,23 @@
+.block{
+    margin:10px;
+    padding:20px;
+    box-shadow:10px 5px 10px rgb(187, 187, 187);
+}
+.row-shrink{
+    display: flex;
+} 
+.row-shrink * {
+    flex-shrink: initial;
+}
+.digit{
+    font-size:200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    text-transform:uppercase;
+    color:#000;
+}
+.with-padding{
+    padding:50px;
+}
+
